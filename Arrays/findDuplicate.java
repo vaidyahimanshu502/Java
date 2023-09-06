@@ -4,14 +4,6 @@ public class findDuplicate {
 	
 	static void findDuplicate(int arr[]) {
 		int n = arr.length;
-//		for(int i = 0 ; i < n; i++) {
-//			for(int j = i + 1; j < n; j++) {
-//				if(arr[i] == arr[j]) {
-//					System.out.println(arr[i]);
-//				}
-//				
-//			}
-//		}
 		int i = 0, j = n-1;
 		while(j >= i) {
 			if(arr[i] == arr[j]) {
