@@ -1,1 +1,1 @@
-# Problem-solving
+# Solving challenges
