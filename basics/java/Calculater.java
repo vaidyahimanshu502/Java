@@ -30,12 +30,19 @@ public class Calculater {
 					System.out.println("Sum of the numbers is :: "+ sum);
 				}
 				if(op == '/') {
-					float sum = num1 / num2;
-					System.out.println("Sum of the numbers is :: "+ sum);
+					if(num2 != 0) {
+						float sum = num1 / num2;
+					       System.out.println("Sum of the numbers is :: "+ sum);
+					}	
 				}
 				if(op == '%') {
 					float sum = num1 % num2;
 					System.out.println("Sum of the numbers is :: "+ sum);
+				}
+				if(op == ''X' || op == 'x') {
+					break;
+				} else {
+					System.out.println("Invalid Operations!");
 				}
 			}			
 		}
