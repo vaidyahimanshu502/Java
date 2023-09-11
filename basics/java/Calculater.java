@@ -41,9 +41,9 @@ public class Calculater {
 				}
 				if(op == 'X' || op == 'x') {
 					break;
-				} else {
-					System.out.println("Invalid Operations!");
 				}
+			}  else {
+					System.out.println("Invalid Operations!");
 			}			
 		}
 	}
