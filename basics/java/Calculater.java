@@ -39,7 +39,7 @@ public class Calculater {
 					float sum = num1 % num2;
 					System.out.println("Sum of the numbers is :: "+ sum);
 				}
-				if(op == ''X' || op == 'x') {
+				if(op == 'X' || op == 'x') {
 					break;
 				} else {
 					System.out.println("Invalid Operations!");
