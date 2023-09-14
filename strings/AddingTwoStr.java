@@ -12,6 +12,11 @@ public class AddingTwoStr {
 		//With space
 		System.out.println(str1 + " " + str2);
 
+		//Example of immutability of String
+
+		str1.concat("Kumar");
+		System.out.println(str1); // it will only prints Himanshu in console.
+
 	}
 
 }
