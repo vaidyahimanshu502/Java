@@ -1,6 +1,6 @@
 # Solving challenges
 
-   1. Coding it bu using Eclipse-IDE tool.
+   1. Coding by using Eclipse-IDE tool.
   
    3. Trying to write clean and effective codes.
     
